@@ -26,7 +26,7 @@ public class BionomalCoefficient {
 
         for(int n=0;n<array.length;n++) {
             for (int k = 0; k < array[n].length; k++)
-                System.out.printf("%4d", array[n][k]);  //displaying array on the screen
+                System.out.printf("%4d", array[n][k]);  //displaying an array on the screen
 
                 System.out.println();
 
