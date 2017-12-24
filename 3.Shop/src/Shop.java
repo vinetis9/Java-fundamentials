@@ -39,6 +39,8 @@ public class Shop {
         this.numberOfClients=numberOfClients;
 
     }
+
+    //Field accessors
     public String getName(){
 
         return name;
