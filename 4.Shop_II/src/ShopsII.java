@@ -1,10 +1,6 @@
 /**
  * Created by ma on 2017-12-24.
  */
-
-/**
- * Created by ma on 2017-12-24.
- */
 public class ShopsII {
 
     public static void main (String []args) {
