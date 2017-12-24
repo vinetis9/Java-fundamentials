@@ -17,7 +17,7 @@ public class BionomalCoefficient {
            for(int k=0;k<array[n].length;k++) {
                int coef = 1;
                for(int i=1;i<=k;i++) {
-                   coef = (coef * ((n + 1) - i)) / i;
+                   coef = (coef * ((n + 1) - i)) / i;    //calculating Bionomial Coefficients
                     array[n][k] = coef;
                }
            }
@@ -26,7 +26,7 @@ public class BionomalCoefficient {
 
         for(int n=0;n<array.length;n++) {
             for (int k = 0; k < array[n].length; k++)
-                System.out.printf("%4d", array[n][k]);
+                System.out.printf("%4d", array[n][k]);  //displaying array on the screen
 
                 System.out.println();
 
