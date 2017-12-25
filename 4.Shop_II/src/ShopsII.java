@@ -2,9 +2,7 @@
  * Created by ma on 2017-12-24.
  */
 
-/**
- * Created by ma on 2017-12-24.
- */
+// keywords: final, static; equals
 public class ShopsII {
 
     public static void main (String []args) {
