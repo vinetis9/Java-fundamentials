@@ -10,7 +10,7 @@ public class Employee {
 
         Employe[] em = new Employe[5];
 
-        em[0] = new Employe("Marcin", "Gemra", 1997);
+        em[0] = new Employe("Marcin", "Gemra", 1997);       // -> First constructor
         System.out.println(em[0].getGivenName());
         System.out.println(em[0].getNumber());
 
