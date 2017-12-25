@@ -23,7 +23,7 @@ public class Employee {
         for(Employe e: em )                         //for each loop
             System.out.println(e.getGivenName());
 
-        em[1].setGivenName("setted");               //setter
+        em[1].setGivenName("set");               //setter
 
         for(Employe e: em )
             System.out.println(e.getGivenName());
