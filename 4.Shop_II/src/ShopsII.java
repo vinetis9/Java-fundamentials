@@ -25,7 +25,7 @@ class Shops{
     private String name;
     private final double cash;  //when keyword 'final' is used, field has to be initialized while creating an object
     private int numberOfClients;
-    private static double PI=3.14;      //a member belongs to the class instead of a specific instance
+    private static double PI=3.14;      //'static'-a member belongs to the class instead of a specific instance
 
     // constructor
 
