@@ -10,7 +10,7 @@ public class Employee {
 
         Employe[] em = new Employe[5];
 
-        em[0] = new Employe("Marcin", "Gemra", 1997);
+        em[0] = new Employe("Marcin", "Gemra", 1997);       // -> First constructor
         System.out.println(em[0].getGivenName());
         System.out.println(em[0].getNumber());
 
@@ -23,7 +23,7 @@ public class Employee {
         for(Employe e: em )                         //for each loop
             System.out.println(e.getGivenName());
 
-        em[1].setGivenName("setted");               //setter
+        em[1].setGivenName("set");               //setter
 
         for(Employe e: em )
             System.out.println(e.getGivenName());
