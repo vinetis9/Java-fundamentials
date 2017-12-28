@@ -1,5 +1,5 @@
 /**
- * Created by ma on 2017-12-27.
+ * Created by ma on 2017-12-27. Inheritance, super, static, final(class)
  */
 public class Inheritance_I {
 
