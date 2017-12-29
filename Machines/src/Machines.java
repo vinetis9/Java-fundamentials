@@ -22,15 +22,30 @@ public class Machines {
         System.out.println(audi.getNumber());
 
         Car car = new Car(777, "BMW", 4.4);
+
+
+        //Upcasting
+
         Machine machinek = (Machine) car;
-        System.out.println(machinek.getNumber());
+        System.out.println(machinek.getNumber());  // output- 777
 
-       // System.out.println(machinek.getCost()); error
+      //  System.out.println(machinek.getCost()); // error
 
-        System.out.println(machine[1] instanceof Car);     //check- false
+        System.out.println(machinek instanceof Car);     //check- true
         System.out.println(machinek instanceof Machine);   //ckeck- true
 
+        System.out.println(machine[1] instanceof Car);     //check- false
+        System.out.println(machine[1] instanceof Machine); // check- true
 
+
+        //Downcasting
+         Machine machined = new Car(5,"OPEL", 9.9);
+         Car car2 = (Car) machined;
+
+         System.out.println(car2.getBrand());
+         System.out.println(car2.getCost());  //9.9
+
+         System.out.println(((Car) machined).getCost());        //9.9
     }
 }
 
